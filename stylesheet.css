@@ -1,0 +1,151 @@
+header{
+  background-color: pink;
+  height:65px;
+}
+
+
+
+.container{
+  width:950px;
+  margin:0 auto;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-right{
+  float:right;
+  transition:all 0.5s;
+}
+
+.header-right a{
+  display:inline-block;
+  line-height: 65px;
+  padding:0 25px;
+  color:white;
+  background-color:rgba(255,255,255,0.3)
+}
+
+.header-right:hover{
+  background-color:rgba(255,255,255,0.5)
+}
+
+.logo{
+  width:120px;
+  margin-top:10px;
+}
+
+.top-wrapper{
+  text-align: center;
+  background-image: url(http://img01.hamazo.tv/usr/animekabegamivocaloid/v_miku0004.jpg);
+  background-size: cover;
+  padding-bottom:50px;
+
+}
+
+.top-wrapper h1{
+  color:white;
+
+  margin-top:0;
+}
+
+.top-wrapper p{
+  color:white;
+}
+
+.btn{
+  display:inline-block;
+  padding:8px 30px;
+  color:white;
+  border-radius: 4px;
+}
+
+.friend{
+  background-color:yellowgreen;
+}
+
+.facebook{
+  background-color:red;
+}
+
+.twitter{
+  background-color:pink;
+}
+
+.lesson-wrapper{
+  background-color:skyblue;
+  height:400px;
+  text-align: center;
+}
+
+.heading{
+  color:white;
+}
+
+.heading h2{
+  margin-top:0;
+}
+
+.lesson-icon{
+  position:relative;
+}
+
+.lesson-icon p{
+  position:absolute;
+  top:60%;
+  width:100%;
+  color:red;
+  margin-left:10px;
+}
+
+.lesson-icon img{
+  width:200px;
+  height:150px;
+}
+
+.lesson{
+  float:left;
+  width:25%;
+}
+
+.text-contents{
+  display:inline-block;
+  color:white;
+  font-size:15px;
+  width:80%;
+  margin-top:15px;
+}
+
+.message-wrapper{
+  text-align:center;
+  padding-bottom:50px;
+  background-color:blue;
+}
+
+.message{
+  background-color:skyblue;
+  box-shadow:0 7px black;
+  cursor:pointer;
+}
+
+.message:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+footer{
+  background-color:yellow;
+}
+
+footer img{
+  width:80px;
+  height:80px;
+  margin-left:30px;
+}
+
+footer p{
+  color:green;
+  margin-bottom:10px;
+}
